@@ -1,0 +1,34 @@
+﻿Build started 9/30/2014 5:22:16 PM.
+     1>Project "G:\Works\Ractiv\Rectifier_CurveFitting_v4\CurveFitting\CurveFitting.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IG:\Works\Ractiv\dependencies\opencv\build\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt curve_fitting.cpp exponential.cpp quadratic.cpp
+         curve_fitting.cpp
+     1>curve_fitting.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+     1>curve_fitting.cpp(41): warning C4018: '<' : signed/unsigned mismatch
+     1>curve_fitting.cpp(54): warning C4018: '<' : signed/unsigned mismatch
+         exponential.cpp
+         quadratic.cpp
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IG:\Works\Ractiv\dependencies\opencv\build\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt lmcurve.c lmmin.c
+         lmcurve.c
+         lmmin.c
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:".\Release\CurveFitting.lib" opencv_core249.lib /LIBPATH:G:\Works\Ractiv\dependencies\opencv\build\x86\vc12\lib /NOLOGO /WX:NO .\Release\curve_fitting.obj
+         .\Release\exponential.obj
+         .\Release\lmcurve.obj
+         .\Release\lmmin.obj
+         .\Release\quadratic.obj
+         quadratic.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>exponential.obj : warning LNK4006: "public: __thiscall cv::Mat::MStep::MStep(void)" (??0MStep@Mat@cv@@QAE@XZ) already defined in opencv_core249.lib(opencv_core249.dll); second definition ignored
+     1>exponential.obj : warning LNK4006: "public: __thiscall cv::Mat::MSize::MSize(int *)" (??0MSize@Mat@cv@@QAE@PAH@Z) already defined in opencv_core249.lib(opencv_core249.dll); second definition ignored
+     1>exponential.obj : warning LNK4006: "public: int __thiscall cv::Mat::type(void)const " (?type@Mat@cv@@QBEHXZ) already defined in opencv_core249.lib(opencv_core249.dll); second definition ignored
+     1>exponential.obj : warning LNK4006: "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ) already defined in opencv_core249.lib(opencv_core249.dll); second definition ignored
+     1>exponential.obj : warning LNK4006: "public: void __thiscall cv::Mat::create(int,int,int)" (?create@Mat@cv@@QAEXHHH@Z) already defined in opencv_core249.lib(opencv_core249.dll); second definition ignored
+     1>exponential.obj : warning LNK4006: "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) already defined in opencv_core249.lib(opencv_core249.dll); second definition ignored
+     1>exponential.obj : warning LNK4006: "public: __thiscall cv::Mat::Mat(int,int,int)" (??0Mat@cv@@QAE@HHH@Z) already defined in opencv_core249.lib(opencv_core249.dll); second definition ignored
+     1>exponential.obj : warning LNK4006: "protected: void __thiscall cv::Mat::initEmpty(void)" (?initEmpty@Mat@cv@@IAEXXZ) already defined in opencv_core249.lib(opencv_core249.dll); second definition ignored
+         CurveFitting.vcxproj -> G:\Works\Ractiv\Rectifier_CurveFitting_v4\CurveFitting\.\Release\CurveFitting.lib
+     1>Done Building Project "G:\Works\Ractiv\Rectifier_CurveFitting_v4\CurveFitting\CurveFitting.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.89
